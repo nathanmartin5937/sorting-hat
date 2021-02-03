@@ -49,29 +49,56 @@ const renderForm = (divId, textToDom) => {
     selectedForm.innerHTML = textToDom;
 };
 // A function to handle the "get started" btn click to target the form html
+
+const cardBuilder = (e) => {
+    let studentDom = "";
+    e.forEach((item, i) => {
+     
+        studentDom += `<div id=${i} class="card">
+              <div class="card-body">
+                    <p class="cardText">${item.groupHouse}</p>
+                    <p class="cardName">${item.name}</p>
+                    <button type="button" id=${i} class="btn btn-primary" id="expelBtn">EXPELLED</button>
+              </div>
+            </div>`
+    });
+};
+
+// printToDom(cardContainer, studentDom); !!!!
+
 const handleBtnClick = (e) => {
     const btnId = e.target.id;
     if(btnId === "getStarted") {
         document.getElementById("infoForm").style.visibility = "visible"
     }
-
-  
-          // selecting btn id adding click event listener 
+          
 };
+
+// selecting btn id adding click event listener 
 const pullForm = (e) => {
     e.preventDefault();
 };
-// troubleshoot
+
+// const groupHouse = ()!!!
+
+// const name = (cardContainer)!!!
 
 const btnEvents = () => {
     document.querySelector("#getStarted").addEventListener("click", handleBtnClick);
     // document.querySelector("#submitBtn").addEventListener("click", pullForm);
 };
 
-// create a function to handle all btn events 
+// created a function to handle all btn events 
 
 const init = () => {
     btnEvents();
   };
   
   init();
+
+// form btn click
+// function for form info //////////////
+// randimize house
+// make objects
+// push obj pass array
+
