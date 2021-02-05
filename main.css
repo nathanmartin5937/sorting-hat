@@ -10,7 +10,7 @@ body {
     margin: 30px;
 }
 
-.infoForm {
+#infoForm {
     text-align: center;
     justify-content: center;
     border: 2px solid teal; 
@@ -18,14 +18,9 @@ body {
     color: white; 
 }
 
-.card-container {
+#cardContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.card {
     margin: 30px;
-    border: 2px solid black;
-    padding: 20px; 
 }

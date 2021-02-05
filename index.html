@@ -14,21 +14,21 @@
         <p class="lead">Today we will assign you to your group house.</p>
         <button type="button" class="btn btn-primary btn-lg" id="getStarted">Get Started</button>
     </div>
-      
-    <div id="infoForm" style="visibility:hidden"> 
-      <label for="name">Plaese enter name here</label>
-      <div class="form-group" >
-        <input
-          required
-          type="text"
-          class="form-control"
-          id="student-name"
-          placeholder="Please type name here"
-          />
-      </div>
-      <button type="submit" id="submitBtn">Submit
-    </div>
-
+     
+      <form>
+        <div id="infoForm" style="visibility:hidden"> 
+          <div class="form-group" >
+            <div id="requiredMessage"></div>
+            <input
+              type="text"
+              class="form-control"
+              id="student-name" 
+              placeholder="Please type name here"
+              />
+          </div>
+          <button type="submit" id="submitBtn">Submit
+        </div>
+      </form>
 
     <div class="cardContainer" id="students"></div>
        
