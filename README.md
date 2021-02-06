@@ -53,3 +53,9 @@ Think of a way you can expel students without just hiding those divs on the page
 
 ## Loom Walkthrough 
 https://www.loom.com/share/7ffc3693dbcf4cfc8830fd9b9b55c244
+
+## GiHub Project Board
+https://github.com/nathanmartin5937/sorting-hat/projects/1
+
+## Netlify
+https://nm-sorting-hat.netlify.app/
