@@ -1,0 +1,28 @@
+## Name of Project
+Sorting Hat
+
+## Project Overview
+This program sorts through arrays to randomly generate a student to a potter house.
+
+## List of Features
+Displayes a form when button is clicked.
+Generates a card with a random array attached to it when the required field is filled out.
+Pushes objects to a designated hidden place when deleted.
+
+## List of Contributors
+https://github.com/nathanmartin5937
+
+## Website Screenshot
+
+
+## Loom Walkthrough 
+https://www.loom.com/share/7ffc3693dbcf4cfc8830fd9b9b55c244
+
+## Link to Wireframe
+N/A
+
+## GiHub Project Board
+https://github.com/nathanmartin5937/sorting-hat/projects/1
+
+## Netlify
+https://nm-sorting-hat.netlify.app/
